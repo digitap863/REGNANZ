@@ -1,0 +1,85 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?25a701ef23e6f67ea8548958a4f69f10") format("truetype"),
+url("./flaticon.woff?25a701ef23e6f67ea8548958a4f69f10") format("woff"),
+url("./flaticon.woff2?25a701ef23e6f67ea8548958a4f69f10") format("woff2"),
+url("./flaticon.eot?25a701ef23e6f67ea8548958a4f69f10#iefix") format("embedded-opentype"),
+url("./flaticon.svg?25a701ef23e6f67ea8548958a4f69f10#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "airplane": "\f101",
+    "open-book": "\f102",
+    "graduation-hat": "\f103",
+    "study": "\f104",
+    "artificial-intelligence": "\f105",
+    "bar-chart": "\f106",
+    "settings": "\f107",
+    "coding": "\f108",
+    "portfolio": "\f109",
+    "briefcase": "\f10a",
+    "analytics": "\f10b",
+    "networking": "\f10c",
+    "business-intelligence": "\f10d",
+    "analysis": "\f10e",
+    "bribe": "\f10f",
+);
+
+.flaticon-airplane:before {
+    content: map-get($flaticon-map, "airplane");
+}
+.flaticon-open-book:before {
+    content: map-get($flaticon-map, "open-book");
+}
+.flaticon-graduation-hat:before {
+    content: map-get($flaticon-map, "graduation-hat");
+}
+.flaticon-study:before {
+    content: map-get($flaticon-map, "study");
+}
+.flaticon-artificial-intelligence:before {
+    content: map-get($flaticon-map, "artificial-intelligence");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-coding:before {
+    content: map-get($flaticon-map, "coding");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon-map, "portfolio");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-networking:before {
+    content: map-get($flaticon-map, "networking");
+}
+.flaticon-business-intelligence:before {
+    content: map-get($flaticon-map, "business-intelligence");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon-map, "analysis");
+}
+.flaticon-bribe:before {
+    content: map-get($flaticon-map, "bribe");
+}
